@@ -4,20 +4,22 @@ header{
     display: flex;
     align-items: center;
 }
+
+
 header h1{
     color: rgb(238, 167, 34);
-    margin-left: 300px;
+    margin-left: 18.75rem;
 }
 header img[alt='school logo']{
-    width: 50px;
-    margin-left: 120px;
+    width: 3.125rem;
+    margin-left: 7.5rem;
 }
 header img[alt='student login']{
-    width: 50px;
-    margin-left: 120px;
+    width: 3.125rem;
+    margin-left: 7.5rem;
 }
 h3{
-    margin-left: 100px ;
+    margin-left: 6.25rem;
     position: relative;
     cursor: pointer;
 }
@@ -25,22 +27,22 @@ h3{
     color: orange;
 }
 [id='courses']{
-    box-shadow: 0px 0px 1px;
+    box-shadow: 0rem 0rem 0.0625rem;
     border: none;
     position: absolute;
     list-style: none;
-    width: 400px;
-    left: -80px;
-    top: 6px;
-    line-height: 30px;
-    padding: 10px;
+    width: 25rem;
+    left: -5rem;
+    top: 0.375rem;
+    line-height: 1.875rem;
+    padding: 0.375;
     display: none;
     background-color: #f9f9f9;
     z-index: 2;
 }
 main{
-    width: 1334px;
-    height: 500px;
+    width: 83.375rem;
+    height: 31.25rem;
     position: relative;
 }
 [alt='main-image']{
@@ -51,14 +53,14 @@ main{
 }
 footer{
     background-color: black;
-    padding: 4px;
+    padding: 0.25rem;
     color: wheat;
     text-align: center;
     text-decoration: underline;
 }
 .logo{
     position: absolute;
-    top: 250px;
-    right: 200px;
+    top: 15.625rem;
+    right: 12.5rem;
     opacity: 0.7;
 }

@@ -72,10 +72,7 @@ header h1{
     width: 50px;
 }
 
-.homepage-contianer{
-    display: flex;
-    flex: 1;
-}
+
 .home-image{
     width: 100%;
 }

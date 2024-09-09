@@ -1,31 +1,29 @@
-// getting the courses header and the courses list
-const courseBtn = document.getElementById('course-button');
-const courselist = document.getElementById('courses');
+//We must get the  courses list and the humberger menu
+const humberger = document.getElementById('humberger-image');
+const courses = document.getElementById('courses');
 
-//adding the addEventlistener function to the course header
-courseBtn.addEventListener('click', function(){
-        // the browser has to check if the courses list has display none.
-        if(courselist.style.display=='none'){
-            //if the browser sees that the display is equal to none, it must display the course list to block when one cliks on the courses' header
-            courselist.style.display='block';
-        }
-        else{
-         courselist.style.display='none';
-        }
-        //when one clicks on the courses header when the list is displayed, the list must disappear
+//adding the AddEvenlistener on the humberberger menu
+humberger.addEventListener('click', function(){
+    // the browser must check if the display is none of the course list
+   if(courses.style.display=='none'){
+    // if the display is none, when we click on the humberger image the course list must be displayed
+    courses.style.display='block';
+   }
+   else{
+    courses.style.display='none';
+   }
 });
-// what id one wants to click some else on the body and the list is still displayed
-//let us get the body
-const body= document.getElementById('body');
-// now when let's add the addeventlistener function, this will help us make the list disappear when we click on anywhere on the browser
-body.addEventListener('click', function(){
-    //checking if the list is displayed on the browser
-    if (courselist.style.display=='block'){
-     //if the list is displayed we must remove it when we click anywhere on the browser
-     courselist.style.display='none';
+//now we want if the user clicks on the main, the courses list must display nothing.
+//we must first get the id for the main
+const main = document.getElementById('main');
+//we have to add an addEventlistener to the main section
+main.addEventListener('click', function(){
+    //the browser has to check if the courses list is displayed or not
+    if(courses.style.display=='block'){
+        // if the courses list is displayed, it must be removed when the user clicks on the main section
+        courses.style.display='none';
     }
-    else{ 
-        //this will make the list disappear, because when the user clicks on the menu it will display nothing
-    
+    else{
+        //when the user clicks on it when it is already not displaying the list nothing must happen to the list
     }
 });

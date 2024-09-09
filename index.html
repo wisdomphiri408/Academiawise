@@ -3,59 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QndAnswer</title>
-    <link rel="stylesheet" href="css/QandAnswer.css">
-   
+    <link rel="stylesheet" href="New_QandAnswer.css">
+    <title>QandAnswer</title>
 </head>
 <body>
     <header>
+        <div class="humberger">
+   <img src="images/humberger-removebg-preview.png" alt="humberger menu" class="humberger-image" id="humberger-image"> 
+    <ul id='courses'>  <!--we want to use this Id for JS and making the list absolute in css-->
+       <a href="psychology.html"> <li>
+            The science of psychology( PSY111)  
+        </li>
+       </a>
 
-        <h3 id="course-button"> <!--This id is used to get and change the courses function in js-->
-         <span class="course-color">COURSES</span>
+       <a href="#">
+        <li>
+            College Algebra( MAT112)
+        </li>
+       </a>
+       <a href="#">
+        <li>
+        Human development( HFC111)
+        </li>
+       </a>
+       <a href="#">
+        <li>
+            Introduction to clothing and textile( HFC112)
 
-        <ul id="courses">   <!--this is used to obtain the list for the use in JS-->
-        <li>
-          <a href="psychology.html">
-          The science of psychology(
-          PSY111)
-          </a>
         </li>
+       </a>
+       <a href="#">
         <li>
-          College Algebra(
-          MAT112)
+            Listening and reading skills for science( LAN112)
         </li>
-        <li>
-          Human development(
-          HFC111)
-        </li>
-        <li>
-          Introduction to clothing and textile(
-          HFC112)
-        </li>
-        <li>
-          Listening and reading skills for science(
-          LAN112)
-        </li>
-      </ul>
-        </h3>
-     <h1>QUESTIONS AND ANSWERS</h1>
-     <img src="icons/school-logo-removebg-preview.png" alt="school logo">
-     <img src="icons/student-login-removebg-preview.png" alt="student login">
+       </a>
+    </ul>
+        </div>
+   <h1>
+       QUESTIONS AND ANSWERS
+   </h1>
+   <div class="school-logo-container">
+    <img src="icons/school-logo-removebg-preview.png" alt="school logo" class="school-logo-image">
+   </div>
+   <div class="student-login-container">
+    <img src="icons/student-login-removebg-preview.png" alt="student login" class="student-login-image"> 
+   </div>
     </header>
-    <main id="body">
-      <div class="image-page">
-     <img src="images/discuss.avif" alt="main-image">
-     <div class="logo">
-      <img src="images/family andconsumer.jpg" alt="family and consumer">
-     </div>
-      </div>
+    <main id="main">
+        <div class="homepage-container">
+         <img src="images/discuss.avif" alt="home-page-image" class="home-image">
+         <article class="family">
+            <img src="images/family andconsumer.jpg" alt="family-image">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic aperiam ducimus dignissimos nihil dolores iste neque voluptas eligendi,<p> explicabo dicta, pariatur dolore! Ipsam quaerat dicta molestiae, consectetur veritatis iste ipsum!</p>
+            </p>
+         </article>
+        </div>
     </main>
-
     <footer>
-      <p>
-        learning@Academiawise.com
-      </p>
+  <a href="psychology.html">PSY111</a> <a href="#">MAT112</a> <a href="#">HFC111</a> <a href="#">HCF112</a> <a href="#">LAN112</a>
     </footer>
-    <script src="JS/QandAnswer.js"></script>
+<script src="New_QandAnswer.js"></script>
 </body>
 </html>

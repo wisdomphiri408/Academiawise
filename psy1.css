@@ -15,7 +15,9 @@ header {
     padding: 10px 20px;
     color: white;
 }
-
+em{
+    color: #8A7F7F;
+}
 h1 {
     font-size: 20px;
     margin: 0;
